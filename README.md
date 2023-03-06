@@ -1,1 +1,1 @@
-# fastgoodwe
+# Goodwe inverter with fastapi
