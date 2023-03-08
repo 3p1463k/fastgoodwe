@@ -1,0 +1,18 @@
+#for api
+fastapi
+uvicorn
+
+#for template
+jinja2
+
+#for static files
+aiofiles
+
+#for file processing
+python-multipart
+
+python-dotenv
+
+goodwe
+
+stampa
