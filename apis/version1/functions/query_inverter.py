@@ -2,7 +2,6 @@ import goodwe
 
 from apis.version1.functions.picklator import unpickl_ip
 from apis.version1.functions.picklator import unpickl_sensor_list
-from static.data.sensor_list import sensor_list
 
 
 async def get_data():
