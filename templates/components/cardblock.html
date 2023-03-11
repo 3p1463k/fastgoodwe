@@ -1,0 +1,35 @@
+{% extends "shared/base.html" %}
+{% block title %}
+  <title>GOODWE</title>
+{% endblock %}
+{% block content %}
+<!-- NAV -->
+<div class="w3-container w3-center  w3-padding-16">
+  <h2><a href="/"class="nounderline">GOODWE SENSORS</a></h2>
+</div>
+
+
+<!-- Start Content -->
+<div class="w3-container">
+  <div class="w3-row-padding w3-margin-bottom">
+
+
+    <div class="w3-quarter">
+      {% for k,v in sensors_list.items()%}
+
+      <div class="w3-container w3-teal w3-padding-16">
+        <div class="w3-right">
+          <h6>{{v}}</h6>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>{{k}}</h4>
+      </div>
+    </div>
+
+    {% endfor %}
+
+    </div>
+  </div>
+
+  <!-- End Content -->
+  {% endblock %}

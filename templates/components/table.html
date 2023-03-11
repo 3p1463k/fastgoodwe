@@ -1,0 +1,17 @@
+<table border="1" class="dataframe sortable center">
+  <thead>
+      <tr style="text-align: right;">
+   {% for key in sensors_list.keys()%}
+   <th> {{ key }} </th>
+   {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+  <!-- table rows -->
+  <tr>
+   {% for value in sensors_list.values() %}
+   <td> {{ value }} </td>
+   {% endfor %}
+  </tr>
+  </tbody>
+</table>
